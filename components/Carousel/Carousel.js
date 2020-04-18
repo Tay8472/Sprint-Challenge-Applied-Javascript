@@ -1,4 +1,4 @@
-/* If You've gotten this far, you're on your own! Although we will give you some hints:
+/* 
     1. You will need to write a function that creates the carousel component, you will find the HTML below.
     2. You will need to grab a reference to all of the images
     3. Create a current index
@@ -17,3 +17,18 @@
     <div class="right-button"> > </div>
   </div>
 */
+
+let carousel = document.createElement("div");
+carousel.classList.add("carousel");
+
+let bLeft = document.createElement("div");
+bLeft.classList.add("left-button");
+
+carousel.appendChild(bLeft);
+
+//
+
+let bRight = document.createElement("div");
+bRight.classList.add("right-button");
+
+carousel.appendChild(bRight);
