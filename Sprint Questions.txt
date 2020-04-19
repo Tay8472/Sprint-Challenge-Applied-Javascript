@@ -1,0 +1,19 @@
+What is the DOM?
+
+The DOM is a representation of what organizes a web page via objects and nodes in Javascript.
+
+What is an event?
+
+Events are things that happen to the browser when something is activated on the back end or by a user.
+
+What is an event listener?
+
+An event listener is an object that creates the ability for an event to work.
+
+Why would we convert a NodeList into an Array?
+
+Creating a nodelist into an array enables all of the normal functions you can perform on an array, whereas a NodeList only allows for the use of forEach.
+
+What is a component?
+
+Components are functions or code that can be reused over and over in the DOM.
